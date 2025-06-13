@@ -12,8 +12,11 @@ public class Place{
     private Long id;
     private String name;
     private String description;
+    private String imageUrl;
+    @ManyToOne
+    private Block block;
     @ManyToOne
     private PlaceTypeDictionary placeTypeDictionary;
     @ManyToOne
-    private Block block;
+    private Location location;
 }
