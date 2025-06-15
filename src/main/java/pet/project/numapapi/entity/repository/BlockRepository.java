@@ -6,5 +6,4 @@ import pet.project.numapapi.entity.Block;
 
 @Repository
 public interface BlockRepository extends JpaRepository<Block, Long> {
-
 }

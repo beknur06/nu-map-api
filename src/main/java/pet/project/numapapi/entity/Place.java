@@ -17,6 +17,6 @@ public class Place{
     private Block block;
     @ManyToOne
     private PlaceTypeDictionary placeTypeDictionary;
-    @ManyToOne
+//    @ManyToOne
     private Location location;
 }
